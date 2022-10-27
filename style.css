@@ -62,14 +62,14 @@
 .add-item__button,
 .checkbox,
 .task,
-.edit,
-.delete {
+.edit__button,
+.delete__button {
   outline: none;
 }
 
 .add-item__button,
-.edit,
-.delete {
+.edit__button,
+.delete__button {
   background: none;
   border: 0px;
   color: #888;
@@ -80,8 +80,8 @@
 }
 
 .add-item__button:hover,
-.edit:hover,
-.delete:hover {
+.edit__button:hover,
+.delete__button:hover {
   color: #3a3a3a;
 }
 
