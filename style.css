@@ -22,9 +22,9 @@
 
 @media (max-width: 768px) {
 
-  .header {
-    text-align: center;
-  }
+.header {
+  text-align: center;
+}
 
 }
 
@@ -63,12 +63,13 @@
 .checkbox,
 .task,
 .edit,
-.delete{
+.delete {
   outline: none;
 }
 
 .add-item__button,
-.edit, .delete {
+.edit,
+.delete {
   background: none;
   border: 0px;
   color: #888;

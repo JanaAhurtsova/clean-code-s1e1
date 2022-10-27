@@ -2,19 +2,24 @@
 <html>
 <head>
   <title>Todo App</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" 
-        rel="stylesheet">
-  <link rel="stylesheet" href="style.css"
-        media="screen" charset="utf-8">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+  <link rel="stylesheet"
+        href="style.css"
+        media="screen"
+        charset="utf-8">
 </head>
+
 <body class="page">
   <header class="header">
-    <img class="header__img" src="./eisenhower-matrix.jpg" alt="eisenhower-matrix">
+    <img src="./eisenhower-matrix.jpg"
+         class="header__img"
+         alt="eisenhower-matrix">
     <a class="header__link"
        href="https://goal-life.com/page/method/matrix-eisenhower">
        Want more details?
     </a>
-  </head>
+  </header>
   <main class="main">
     <section class="add-item">
       <h3 class="add-item__title title">Add Item</h3>
@@ -27,23 +32,27 @@
       <h3 class="todo__title title">Todo</h3>
       <ul class="todo__incomplete-tasks">
         <li class="todo__task incomplete-task">
-          <input class="todo__checkbox checkbox" type="checkbox">
+          <input type="checkbox" class="todo__checkbox checkbox">
           <label class="todo__tasks-name tasks-name">Pay Bills</label>
-          <input class="todo__incomplete-task task" type="text">
+          <input type="text" class="todo__incomplete-task task">
           <button class="todo__edit edit">Edit</button>
           <button class="todo__delete delete">
-            <img class="todo__delete-icon delete-icon" src="./remove.svg" alt="delete-icon">
+            <img src="./remove.svg"
+                 class="todo__delete-icon delete-icon"
+                 alt="delete-icon">
           </button>
         </li>
         <li class="todo__task edit-mode">
-          <input class="todo__checkbox checkbox" type="checkbox">
+          <input type="checkbox" class="todo__checkbox checkbox">
           <label class="todo__tasks-name tasks-name">Go Shopping</label>
           <input type="text"
                  value="Go Shopping"
                  class="todo__edit-mode__task task">
           <button class="todo__edit edit">Save</button>
           <button class="todo__delete delete">
-            <img class="todo__delete-icon delete-icon" src="./remove.svg" alt="delete-icon">
+            <img src="./remove.svg"
+                 class="todo__delete-icon delete-icon"
+                 alt="delete-icon">
           </button>
         </li>
       </ul>
@@ -52,12 +61,17 @@
       <h3 class="completed__title title">Completed</h3>
       <ul class="completed__tasks">
         <li class="completed__task">
-          <input class="completed__checkbox checkbox" type="checkbox" checked>
+          <input type="checkbox"
+                 class="completed__checkbox checkbox"
+                 checked>
           <label class="completed__tasks-name tasks-name">See the Doctor</label>
-          <input class="completed__completed-task task" type="text">
+          <input type="text"
+                 class="completed__completed-task task">
           <button class="completed__edit edit">Edit</button>
           <button class="completed__delete delete">
-            <img class="completed__delete-icon delete-icon" src="./remove.svg" alt="delete-icon">
+            <img src="./remove.svg"
+                 class="completed__delete-icon delete-icon"
+                 alt="delete-icon">
           </button>
         </li>
       </ul>
